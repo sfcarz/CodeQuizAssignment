@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaQuiz</title>
+</head>
+
+<body class="bg-secondary">
+    <div class="container mb-5">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-12 bg-dark text-danger text-center mb-3 mt-1">
+                <h1>
+                    Christopher Rojas
+                </h1>
+            </div>
+        </div>
+                    <!-- Secondary Header -->
+        <div class="row">
+            <div class="col-12 bg-dark text-warning text-center mb-3 mt-1">
+                <h1>
+                    JavaScript Fundamental Quiz
+                </h1>
+            </div>
+        </div>
+
+                    <!-- Timer -->
+        <div class="row">
+            <div class="col offset-10 bg-primary p-4 text-center text-light">
+                <p class="timer"></p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+                    <!--  -->
+        <div class="row">
+            <div class="container">
+                <!-- Question Display -->
+                <div class="hide" id="question-container">
+                    <div class="text-center text-warning text-lg" id="question"><h1>Question</h1>
+                    </div>
+                    <!-- Answer Buttons -->
+                    <div id="answer-buttons" class="btn-grid">
+                        <!-- <button lass="btn btn-outline-light btn-lg mb-3" type="submit" value="Answer A"></button> -->
+
+                            <!-- <button class="btn btn-outline-light btn-lg mb-3" type="submit" value="Answer A"></button><br>
+                            <input class="btn btn-outline-light btn-lg mb-3" type="submit" value="Answer B"><br>
+                            <input class="btn btn-outline-light btn-lg mb-3" type="submit" value="Answer C"><br>
+                            <input class="btn btn-outline-light btn-lg mb-3" type="submit" value="Answer D"><br> -->
+                    </div>
+                </div>
+
+                <div class="controls">
+
+                    <!-- Start Button -->
+                    <input class="btn btn-outline-light btn-block start-btn btn btn-lg m-3 justify-content-center" id="start-button" type="submit" value="Start"/>
+
+                    <!-- Next Button -->
+                    <input class="btn btn-outline-light btn-block next-btn btn btn-lg m-3 hide" id="next-button" type="submit" value="next"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer fixed-bottom font-small bg-dark mt-3">
+        <div class="footer copyright text-center text-primary">
+            © 2020 Rojas Creation <br>
+            <a href="http://www.facebook.com/sfcarz" class="color-primary">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+        <script src="pg6.js"></script>
+        <script src="../PlayGround/pg3.js"></script>
+</body>
+
+</html>

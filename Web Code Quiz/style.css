@@ -1,0 +1,7 @@
+.btn:hover {
+    border-color: black;
+}
+
+.hide {
+    display: none;
+}
